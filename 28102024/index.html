@@ -19,21 +19,31 @@
       if(hora>=14){
         document.write("Boa tarde, seja bem vindo senhor(a)"+nome);
       }else{
-        document.write("Seja bem vindo, almoça connosco?");
+        document.write("
+    Seja bem vindo, almoça connosco?");
       }} */
     
-    var nome=prompt("Insira o seu nome:")/*pede o nome*/
-    var idade=prompt("Insira a sua idade:")/*pede a idade*/
-    if(idade<18){/*se a idade for menor de 18, irá escrever que é de menor*/
-      document.write("Olá Danylo, "+"Você é de menor idade.")
+    /* var nome=prompt("Insira o seu nome:")/*pede o nome*/
+   /*  var idade=prompt("Insira a sua idade:") * *///*pede a idade*/
+    /* if(idade<18){/*se a idade for menor de 18, irá escrever que é de menor*/
+    /*   document.write("Olá Danylo, "+"Você é de menor idade.")
     }else{/*se a idade for maior de 18, irá dizer que é de maior */
-      document.write("Olá Danylo, "+"Você é de maior idade.")
+    /*  document.write("Olá Danylo, "+"Você é de maior idade.")
+    }*/
+    /* var nome="danylo",apelido="Duma",idade="18"
+    document.getElementById("demo").innerHTML=nome+" "+apelido+"tem"+idade; */
+    nome=prompt("Introduza o seu nome:","em Maiusculas");
+    if(nome.length>=5){
+      document.write("O seu nome é bem longo!");
+    }else{
+      document.write("O seu nome é bem pequeno!")
     }
   </script>
   <!-- <p>Este exemplo declara uma variável, dá um valor a essa variável e mostra essa variável.</p>
 
   <h1>Praticando com variáveis</h1> -->
-
+  
+  
 
 </body>
 </html>
