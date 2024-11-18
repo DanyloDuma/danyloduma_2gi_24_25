@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>18-11-2024</title>
+    <script>
+      function obrigado() {
+        window.alert("Obrigado pela visita!");
+        window.open(
+          "http://www.wesleymissioncenter.org/images/thankyou.png",
+          "janela"
+        );
+      }
+    </script>
     <style>
       label {
         width: 150px;
@@ -37,7 +46,7 @@
   </head>
   <body>
     <div id="contact"><h1>Dados de contacto</h1></div>
-    <form method="post">
+    <form method="get" name="dados" onsubmit="obrigado()">
       <fieldset>
         <legend><h2>Dados pessoais:</h2></legend>
         <div class="formlinha">
